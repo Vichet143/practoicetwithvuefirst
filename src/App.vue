@@ -4,6 +4,7 @@
   <About></About>
   <Us></Us>
   <Team></Team>
+  <Allcourse></Allcourse>
 </template>
 
 <script>
@@ -12,6 +13,7 @@
   import About from "@/components/About.vue";
   import Us from "@/components/Us.vue";
   import Team from "@/components/Team.vue";
+  import Allcourse from "@/components/Allcourse.vue";
   
   export default {
     components: {
@@ -20,6 +22,7 @@
       About,
       Us,
       Team,
+      Allcourse,
     },
   };
 </script>

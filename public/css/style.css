@@ -928,3 +928,46 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+.col-{
+  width: 550px;
+  height: 450px;
+  border: 1px solid red;
+  padding: 10px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+}
+.container1{
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.box-img{
+  width: 530px;
+  height: 200px;
+ 
+}
+.allimg{
+  display: flex;
+  justify-content: center;
+}
+.re{
+  background-color: red;
+  width: 150px;
+  height: 50px;
+  color: #ffffff;
+}
+.cardfooter{
+  display: flex;
+  justify-content: space-between;
+}
+.prize{
+  color: #16A34A;
+  font-size: 20px;
+}
+.img-s{
+  width: 100%;
+}
