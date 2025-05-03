@@ -940,6 +940,13 @@ a:focus {
   gap: 20px;
   margin-top: 50px;
 }
+.flex2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+}
 .container1{
   width: 1200px;
   margin: auto;
@@ -970,4 +977,34 @@ a:focus {
 }
 .img-s{
   width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.col1{
+  width: 280px;
+  height: 400px;
+  background-color: #00bbf0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.boximg{
+  height: 280px;
+}
+.namemovie{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600px;
+}
+.lang{
+  display: flex;
+  justify-content: center;
+}
+.type{
+  width: 100%;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }

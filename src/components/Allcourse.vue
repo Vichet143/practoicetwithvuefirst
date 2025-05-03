@@ -31,6 +31,8 @@ import cardcourse from './card/cardcourse.vue';
     },
     async created(){
       const respones = await axios.get("/v1/courses");
+      console.log(respones.data);
+      
       this.coures = respones.data;
     },
     }

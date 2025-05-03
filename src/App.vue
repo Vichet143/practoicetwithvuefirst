@@ -5,6 +5,7 @@
   <Us></Us>
   <Team></Team>
   <Allcourse></Allcourse>
+  <movie></movie>
 </template>
 
 <script>
@@ -14,6 +15,7 @@
   import Us from "@/components/Us.vue";
   import Team from "@/components/Team.vue";
   import Allcourse from "@/components/Allcourse.vue";
+  import Movie from "./components/Movie.vue";
   
   export default {
     components: {
@@ -23,6 +25,7 @@
       Us,
       Team,
       Allcourse,
+      Movie,
     },
   };
 </script>
